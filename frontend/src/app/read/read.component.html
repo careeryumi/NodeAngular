@@ -1,0 +1,26 @@
+<div class="container mt-5">
+
+<!-- <p>read works!</p> -->
+
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">FullName</th>
+        <th scope="col">Email</th>
+        <th scope="col">Mobile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = 'let us of readData'>
+        <th scope="row">{{us.id}}</th>
+        <td>{{us.fullname}}</td>
+        <td>{{us.email}}</td>
+        <td>{{us.mobile}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
